@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://dyrevaernet.dk/media/1001/logo.png" alt="Your Logo">
+        </div>
+        <nav><div class="burger-menu" id="burger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Hej...">
+            <button type="submit">sa</button>
+        </div>
+        <ul>
+            <li><a href="#">Ernæring</a></li>
+            <li><a href="#">Sundhed</a></li>
+            <li><a href="#">Leg og motion</a></li>
+            <li><a href="#">Adfærd</a></li>
+            <li><a href="#">Pleje</a></li>
+            <li><a href="#">Træning</a></li>
+        </ul></nav>
+        
+    </header>
+    <div class="hero-container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Ny Katteejer?</h1>
+                <p>At have kat er et stort ansver, som kommer med forskellige <br> udgifter, forpligtelser og meget mere.</p>
+                <a href="#" class="btn">Lær mere</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero Image">
+            </div>
+        </div>
+    </div>
+    <div class="article-section">
+        <h2>Seneste Artikler</h2>
+        <div class="articles-row">
+            <div class="article">
+                <h3>Ernæring til Din Kat</h3>
+                <p>Lær om vigtigheden af sund ernæring for din kat. Opdag de bedste kostvaner og hvordan du sikrer, at din kat får alle de nødvendige næringsstoffer.</p>
+            </div>
+            <div class="article">
+                <h3>Hold Din Kat Sund</h3>
+                <p>Opdag hvordan du opretholder din kats generelle sundhed. Få tips til regelmæssige check-ups og forebyggelse af almindelige sundhedsproblemer hos katte.</p>
+            </div>
+            <div class="article">
+                <h3>Sjov Leg og Motion for Din Kat</h3>
+                <p>Få ideer til sjov leg og motion for din kat. Udforsk legetøj og aktiviteter, der holder din kat aktiv og glad.</p>
+            </div>
+        </div>
+        <div class="articles-row">
+            <div class="article">
+                <h3>Forstå Din Kats Adfærd</h3>
+                <p>Forstå og håndter din kats adfærd. Lær at tolke signaler og løs almindelige adfærdsproblemer for at styrke forholdet med din kat.</p>
+            </div>
+            <div class="article">
+                <h3>Essentiel Pleje af Din Kat</h3>
+                <p>Lær vigtige plejetips til din kat, herunder pelspleje og tandhygiejne. Sikr, at din kat trives med korrekt pleje.</p>
+            </div>
+            <div class="article">
+                <h3>Træning af Din Kat</h3>
+                <p>Udforsk positive træningsmetoder til din kat. Opnå samarbejde og forståelse gennem effektiv træning af din kat.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="highlight-section">
+        <div class="highlight-content">
+            <div class="highlight-image">
+                <img src="https://www.zooplus.dk/magasin/wp-content/uploads/2022/03/kattetraening-med-godbid.jpg" alt="Highlight Image">
+            </div>
+            <div class="highlight-text">
+                <h2>Sådan træner du din kat</h2>
+                <p>Katte kræver for det meste ikke ligeså meget træning<br> som hunde, men nogle katte...</p>
+                <a href="#" class="btn">Læs mere</a>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer>
+      <div class="socials">
+        <img src="socials.png" alt="socials">
+    </div>
+    </footer>
+    <script>
+        document.getElementById('burger-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
